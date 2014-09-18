@@ -1,0 +1,27 @@
+function weibo() { 
+	 cd ~/Development/Weibo;
+	 l -a;
+	 git status;
+}
+
+function b361() {
+	 cd ~/Development/Android;
+	 git status;
+}
+
+function md(){
+	 cd ~/Development/Material-Design-Realization;
+	 git status;
+	 l -a;
+}
+
+function mdc(){
+	 cd ~/Development/Material-Design-Color;
+	 git status;
+	 l -a;
+}
+
+function osfram() {
+	 cd ~/Android/OpenSourceFramwork;
+	 l -a;
+}

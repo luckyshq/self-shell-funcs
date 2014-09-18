@@ -1,0 +1,9 @@
+source ~/ShellFuncs/.otherFuncs
+source ~/ShellFuncs/.cdFuncs
+source ~/ShellFuncs/.projectFuncs
+source ~/ShellFuncs/.launchFuncs
+source ~/ShellFuncs/.androidFuncs
+
+function myfunc() { emacs ~/ShellFuncs/.myFunc ;}
+
+ 

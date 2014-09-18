@@ -1,0 +1,12 @@
+function xmind() { /usr/local/xmind/XMind ;}
+
+function chrome() { /opt/google/chrome/google-chrome $1 ;}
+function lava() { chrome lavaradio.com;}
+function baidu() { chrome baidu.com;}
+function github() { chrome github.com;}
+function taobao() { chrome taobao.com;}
+function train123() { chrome www.12306.cn;}
+
+function ast() { ~/Android/android-studio/bin/studio.sh ;}
+function tb() { /usr/bin/thunderbird ;}
+function wz() { /usr/bin/WizNote ;}

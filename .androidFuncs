@@ -1,0 +1,7 @@
+function hierarchy { 
+	 ~/software/android-sdk/tools/hierarchyviewer ;
+}
+
+function 9patch {
+	 ~/software/android-sdk/tools/draw9patch ;
+}	

@@ -1,0 +1,6 @@
+function ..() { cd .. ;}
+function 2..() { cd ../.. ;}
+function 3..() { cd ../../.. ;}
+function ro() { cd / ;}
+
+function c() { cd $1;}
