@@ -1,0 +1,12 @@
+function st() { git status; }
+
+function addall() { git add .; }
+
+function commit() { git commit -m "$1"; }
+function commita() { git commit -a -m "$1"; }
+
+function pull() { git pull; }
+function pullr() { git pull --rebase origin master; }
+
+function push() { git push origin master; }
+function pushf() { git push for-master; }
