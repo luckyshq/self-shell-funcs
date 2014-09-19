@@ -1,3 +1,7 @@
+function cdfuncs() {
+	 emacs ~/ShellFuncs/.cdFuncs; 
+}
+
 function ..() { cd .. ;}
 function 2..() { cd ../.. ;}
 function 3..() { cd ../../.. ;}

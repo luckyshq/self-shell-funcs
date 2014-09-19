@@ -1,3 +1,5 @@
+function projectfuncs() { emacs ~/ShellFuncs/.projectFuncs; }
+
 function weibo() { 
 	 cd ~/Development/Weibo;
 	 l -a;

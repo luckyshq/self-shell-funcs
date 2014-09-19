@@ -1,3 +1,7 @@
+function gitfuncs() {
+	 emacs ~/ShellFuncs/.gitFuncs;
+}
+
 function st() { git status; }
 
 function addall() { git add .; }

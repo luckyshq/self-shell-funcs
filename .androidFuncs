@@ -1,7 +1,11 @@
-function hierarchy { 
+function androidfuncs() {
+	 emacs ~/ShellFuncs/.androidFuncs;
+}
+
+function hierarchy() { 
 	 ~/software/android-sdk/tools/hierarchyviewer ;
 }
 
-function 9patch {
+function 9patch() {
 	 ~/software/android-sdk/tools/draw9patch ;
 }	

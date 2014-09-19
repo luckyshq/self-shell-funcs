@@ -1,1 +1,3 @@
+function otherfuncs() { emacs ~/ShellFuncs/.otherFuncs; }
+
 function cr() { clear; }
