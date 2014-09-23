@@ -1,0 +1,7 @@
+function editfuncs() {
+	 emacs ~/ShellFuncs/.editFuncs;
+}
+
+function gtdcvte() {
+	 emacs ~/Nutstore/CVTE/CVTE_works/GTD.org;
+}
