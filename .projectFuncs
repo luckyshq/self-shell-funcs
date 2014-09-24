@@ -27,3 +27,8 @@ function osfram() {
 	 cd ~/Android/OpenSourceFramwork;
 	 l -a;
 }
+
+function reading() {
+	 cd ~/Nutstore/Study/Software/Reading;
+	 l -a;
+}
