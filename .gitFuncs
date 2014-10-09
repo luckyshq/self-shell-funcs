@@ -4,7 +4,7 @@ function gitfuncs() {
 
 function st() { git status; }
 
-function addall() { git add .; }
+function adda() { git add .; }
 
 function commit() { git commit -m "$1"; }
 function commita() { git commit -a -m "$1"; }
