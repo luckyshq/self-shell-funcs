@@ -5,6 +5,7 @@ source ~/ShellFuncs/.launchFuncs
 source ~/ShellFuncs/.androidFuncs
 source ~/ShellFuncs/.gitFuncs
 source ~/ShellFuncs/.editFuncs
+source ~/ShellFuncs/.dockerFuncs
 
 function myfunc() { emacs ~/ShellFuncs/.myFunc ;}
 

@@ -1,6 +1,6 @@
 function projectfuncs() { emacs ~/ShellFuncs/.projectFuncs; }
 
-function weibo() { 
+function weibo() {
 	 cd ~/Development/Weibo;
 	 l -a;
 	 git status;
@@ -30,5 +30,10 @@ function osfram() {
 
 function reading() {
 	 cd ~/Nutstore/Study/Software/Reading;
+	 l -a;
+}
+
+function cvterep() {
+	 cd ~/Nutstore/CVTE/CVTE_reports;
 	 l -a;
 }

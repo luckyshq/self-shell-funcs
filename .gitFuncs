@@ -14,3 +14,4 @@ function pullr() { git pull --rebase origin master; }
 
 function push() { git push origin master; }
 function pushf() { git push for-master; }
+function pushg() { git push -u origin gh-pages;}

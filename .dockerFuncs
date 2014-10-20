@@ -1,0 +1,28 @@
+function dockerfuncs() {
+	 emacs ~/ShellFuncs/.dockerFuncs;
+}
+
+function dokstart() {
+	 sudo service docker start;
+}
+
+function dokstop() {
+	 sudo service docker stop;
+}
+
+function dokrestart(){
+	 sudo service docker restart;
+}
+
+function dokps(){
+	 sudo docker ps -a;
+}
+
+function dokrm(){
+	 sudo docker rm $1;
+}
+
+function dokrmi(){
+	 sudo docker rmi $1;
+}
+

@@ -1,0 +1,3 @@
+function dockerfuncs() {
+	 emacs ~/ShellFuncs/.dockerFuncs;
+}
