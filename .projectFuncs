@@ -11,6 +11,12 @@ function b361() {
 	 git status;
 }
 
+function visiomed() {
+	 cd ~/Development/Visiomed/Android;
+	 git status;
+	 l -a;
+}
+
 function md(){
 	 cd ~/Development/Material-Design-Realization;
 	 git status;

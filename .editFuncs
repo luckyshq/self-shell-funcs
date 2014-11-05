@@ -5,3 +5,7 @@ function editfuncs() {
 function gtdcvte() {
 	 emacs ~/Nutstore/CVTE/CVTE_works/GTD.org;
 }
+
+function weekcvte() {
+	 emacs ~/Nutstore/CVTE/CVTE_reports/CVTE_weekly_plan.org;
+}

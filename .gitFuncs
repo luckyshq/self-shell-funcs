@@ -11,7 +11,9 @@ function commita() { git commit -a -m "$1"; }
 
 function pull() { git pull; }
 function pullr() { git pull --rebase origin master; }
+function pullrb() { git pull --rebase origin bwc_v2.0;}
 
 function push() { git push origin master; }
 function pushf() { git push for-master; }
+function pushb() { git push bwc;}
 function pushg() { git push -u origin gh-pages;}
