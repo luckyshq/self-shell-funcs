@@ -9,7 +9,7 @@ function adda() { git add .; }
 function commit() { git commit -m "$1"; }
 function commita() { git commit -a -m "$1"; }
 
-function pull() { git pull; }
+function pull() { git pull origin master; }
 function pullr() { git pull --rebase origin master; }
 function pullrb() { git pull --rebase origin bwc_v2.0;}
 
