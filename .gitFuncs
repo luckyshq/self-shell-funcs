@@ -8,6 +8,7 @@ function adda() { git add .; }
 
 function commit() { git commit -m "$1"; }
 function commita() { git commit -a -m "$1"; }
+function amend() { git commit --amend; }
 
 function pull() { git pull origin master; }
 function pullr() { git pull --rebase origin master; }
@@ -17,3 +18,4 @@ function push() { git push origin master; }
 function pushf() { git push for-master; }
 function pushb() { git push bwc;}
 function pushg() { git push -u origin gh-pages;}
+

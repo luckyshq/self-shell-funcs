@@ -33,6 +33,7 @@ self-shell-funcs for linux Ubuntu
 * **adda** 代替`git add .`.
 * **commit** 代替`git commit -m`,后面跟不加空行和&的commit信息.
 * **commita** 代替`git commit -a -m`,同上.
+* **amend** 代替`git commit --amend`.
 * **pull** 代替`git pull origin master`,从master分支上pull.
 * **pullr** 代替`git pull --rebase origin master`,pull的同时rebase.
 * **push** 代替`git push origin master`,push到master分支上.
