@@ -19,3 +19,5 @@ function pushf() { git push for-master; }
 function pushb() { git push bwc;}
 function pushg() { git push -u origin gh-pages;}
 
+function gl() { git log;
+}

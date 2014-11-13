@@ -37,6 +37,7 @@ self-shell-funcs for linux Ubuntu
 * **pull** 代替`git pull origin master`,从master分支上pull.
 * **pullr** 代替`git pull --rebase origin master`,pull的同时rebase.
 * **push** 代替`git push origin master`,push到master分支上.
+* **gl** 代替`git log`,查看git commit日志.
 
 ## otherfuncs
 * **cr** 代替`clear`.
