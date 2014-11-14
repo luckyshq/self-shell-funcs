@@ -41,3 +41,5 @@ self-shell-funcs for linux Ubuntu
 
 ## otherfuncs
 * **cr** 代替`clear`.
+* **mk** 代替`mkdir`,同时`cd`到创建的目录下.
+* **rf** 代替`rm -rf`.
