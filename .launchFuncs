@@ -1,4 +1,4 @@
-function launchfuncs() { emacs ~/ShellFuncs/.launcdFuncs; }
+function launchfuncs() { emacs ~/ShellFuncs/.launchFuncs; }
 
 function xmind() { /usr/local/xmind/XMind ;}
 
@@ -12,3 +12,5 @@ function train123() { chrome www.12306.cn;}
 function ast() { ~/Android/android-studio/bin/studio.sh ;}
 function tb() { /usr/bin/thunderbird ;}
 function wz() { /usr/bin/WizNote ;}
+
+function genym() { ~/Android/Genymotion/genymotion/genymotion;}

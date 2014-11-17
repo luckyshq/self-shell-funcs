@@ -2,10 +2,22 @@ function cdfuncs() {
 	 emacs ~/ShellFuncs/.cdFuncs; 
 }
 
-function ..() { cd .. ;}
-function 2..() { cd ../.. ;}
-function 3..() { cd ../../.. ;}
-function ro() { cd / ;}
+function ..() { 
+	 cd .. ;
+	 l -a;
+}
+function 2..() { 
+	 cd ../.. ;
+	 l -a;
+}
+function 3..() { 
+	 cd ../../.. ;
+	 l -a;
+}
+function ro() { 
+	 cd / ;
+	 l -a;
+}
 
 function c() { 
 	 cd $1;
