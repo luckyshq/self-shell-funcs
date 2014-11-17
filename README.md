@@ -14,10 +14,10 @@ self-shell-funcs for linux Ubuntu
 #### (由于有部分命令是个人使用,在此就不做介绍了)
 
 ## cdfuncs
-* **..**  返回上一级目录.
-* **2..** 返回上两级目录.
-* **3..** 返回上三级目录.
-* **ro** 返回到根目录.
+* **..**  返回上一级目录,并打印出该路径中所有文件及目录.
+* **2..** 返回上两级目录,并打印出该路径中所有文件及目录.
+* **3..** 返回上三级目录,并打印出该路径中所有文件及目录.
+* **ro** 返回到根目录,并打印出该路径中所有文件及目录.
 * **c** `cd`到对应路径,并打印出该路径中所有的文件及目录.
 
 ## launchfuncs
@@ -27,6 +27,7 @@ self-shell-funcs for linux Ubuntu
 * **ast** 开启Android-studio,得自己设置studio.sh路径.
 * **tb** 开启thunderbird.
 * **wz** 开启为知笔记.
+* **genym** 开启Genymotion,Android模拟器.
 
 ## gitfuncs
 * **st** 代替`git status`.
