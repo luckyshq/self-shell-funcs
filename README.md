@@ -30,7 +30,7 @@ self-shell-funcs for linux Ubuntu
 * **genym** 开启Genymotion,Android模拟器.
 
 ## gitfuncs
-* **st** 代替`git status`.
+* **st** 代替`git status -sb`.
 * **adda** 代替`git add .`.
 * **commit** 代替`git commit -m`,后面跟不加空行和&的commit信息.
 * **commita** 代替`git commit -a -m`,同上.
@@ -38,7 +38,7 @@ self-shell-funcs for linux Ubuntu
 * **pull** 代替`git pull origin master`,从master分支上pull.
 * **pullr** 代替`git pull --rebase origin master`,pull的同时rebase.
 * **push** 代替`git push origin master`,push到master分支上.
-* **gl** 代替`git log`,查看git commit日志.
+* **gl** 代替 `git log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative;`,查看git commit日志.
 
 ## otherfuncs
 * **cr** 代替`clear`.

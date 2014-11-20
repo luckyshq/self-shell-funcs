@@ -2,7 +2,7 @@ function gitfuncs() {
 	 emacs ~/ShellFuncs/.gitFuncs;
 }
 
-function st() { git status; }
+function st() { git status -sb; }
 
 function adda() { git add .; }
 
@@ -12,12 +12,15 @@ function amend() { git commit --amend; }
 
 function pull() { git pull origin master; }
 function pullr() { git pull --rebase origin master; }
-function pullrb() { git pull --rebase origin bwc_v2.0;}
+function pullrb() { 
+	 git pull --rebase origin bwc_v2.0;
+	 ./gradlew;
+}
 
 function push() { git push origin master; }
 function pushf() { git push for-master; }
 function pushb() { git push bwc;}
 function pushg() { git push -u origin gh-pages;}
 
-function gl() { git log;
+function gl() { git log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative;
 }
