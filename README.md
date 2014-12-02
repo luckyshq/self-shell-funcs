@@ -40,6 +40,10 @@ self-shell-funcs for linux Ubuntu
 * **push** 代替`git push origin master`,push到master分支上.
 * **gl** 代替 `git log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative;`,查看git commit日志.
 
+## javafuncs
+* **j** 替代`java`,后面只能跟一个参数.
+* **jc** 替代`javac`,后面只能跟一个参数.
+
 ## otherfuncs
 * **cr** 代替`clear`.
 * **mk** 代替`mkdir`,同时`cd`到创建的目录下.

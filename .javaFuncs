@@ -1,0 +1,11 @@
+function javafuncs() {
+    emacs ~/ShellFuncs/.javaFuncs;
+}
+
+function jc(){
+    javac $1;
+}
+
+function j(){
+    java $1;
+}
