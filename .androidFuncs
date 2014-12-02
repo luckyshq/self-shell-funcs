@@ -2,10 +2,13 @@ function androidfuncs() {
 	 emacs ~/ShellFuncs/.androidFuncs;
 }
 
-function hierarchy() { 
+function hierarchy() {
 	 ~/software/android-sdk/tools/hierarchyviewer ;
 }
 
 function 9patch() {
 	 ~/software/android-sdk/tools/draw9patch ;
-}	
+}
+
+function ains() {
+	 adb install $1 ;}
