@@ -34,11 +34,17 @@ self-shell-funcs for linux Ubuntu
 * **adda** 代替`git add .`.
 * **commit** 代替`git commit -m`,后面跟不加空行和&的commit信息.
 * **commita** 代替`git commit -a -m`,同上.
+* **commitft** 格式化commit信息,代替`git commit -m "[feature]$1"`,`$1`处写后续信息.
+* **commitfix** 同上,代替`git commit -m "[bugfix]$1"`.
+* **commitup** 同上,代替`git commit -m "[update]$1"`.
+* **commitpb** 同上,代替`git commit -m "[publish]$1"`.
 * **amend** 代替`git commit --amend`.
 * **pull** 代替`git pull origin master`,从master分支上pull.
 * **pullr** 代替`git pull --rebase origin master`,pull的同时rebase.
 * **push** 代替`git push origin master`,push到master分支上.
-* **gl** 代替 `git log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative;`,查看git commit日志.
+* **gl** 代替 `git log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative;`,查看git commit日志.(效果如下图)
+
+![](http://m3.img.srcdd.com/farm5/d/2014/1204/10/91BF17C2578B1299503D9BE0FF77CEDA_B500_900_500_261.png)
 
 ## javafuncs
 * **j** 替代`java`,后面只能跟一个参数.
