@@ -4,7 +4,7 @@ self-shell-funcs for linux Ubuntu
 
 
 ### 在.bashrc文件中通过调用自己创建的Shell命令来简化Terminal中的命令.
-在.bashrc 中加入 `source ~/ShellFuncs/.myFunc`即可
+在.bashrc 中加入 `source ~/self-shell-funcs/.myFunc`(git clone的目录)即可
 .myFunc 文件用来汇总所有类型Function
 各个类型的Function可以自行在对应的 **.XXXFuncs** 文件里面修改.
 
