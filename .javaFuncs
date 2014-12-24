@@ -1,5 +1,5 @@
 function javafuncs() {
-    emacs ~/ShellFuncs/.javaFuncs;
+    atom ~/self-shell-funcs/.javaFuncs;
 }
 
 function jc(){

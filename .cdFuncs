@@ -1,25 +1,25 @@
 function cdfuncs() {
-	 emacs ~/ShellFuncs/.cdFuncs; 
+	 atom ~/self-shell-funcs/.cdFuncs; 
 }
 
-function ..() { 
+function ..() {
 	 cd .. ;
 	 l -a;
 }
-function 2..() { 
+function 2..() {
 	 cd ../.. ;
 	 l -a;
 }
-function 3..() { 
+function 3..() {
 	 cd ../../.. ;
 	 l -a;
 }
-function ro() { 
+function ro() {
 	 cd / ;
 	 l -a;
 }
 
-function c() { 
+function c() {
 	 cd $1;
 	 l -a;
 }

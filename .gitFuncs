@@ -1,5 +1,5 @@
 function gitfuncs() {
-	 emacs ~/ShellFuncs/.gitFuncs;
+	 atom ~/self-shell-funcs/.gitFuncs;
 }
 
 function st() { git status -sb; }

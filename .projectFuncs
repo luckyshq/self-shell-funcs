@@ -1,4 +1,4 @@
-function projectfuncs() { emacs ~/ShellFuncs/.projectFuncs; }
+function projectfuncs() { atom ~/self-shell-funcs/.projectFuncs; }
 
 function weibo() {
 	 cd ~/Development/Weibo;

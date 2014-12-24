@@ -1,5 +1,5 @@
 function dockerfuncs() {
-	 emacs ~/ShellFuncs/.dockerFuncs;
+	 atom ~/self-shell-funcs/.dockerFuncs;
 }
 
 function dokstart() {
@@ -25,4 +25,3 @@ function dokrm(){
 function dokrmi(){
 	 sudo docker rmi $1;
 }
-

@@ -1,4 +1,4 @@
-function launchfuncs() { emacs ~/ShellFuncs/.launchFuncs; }
+function launchfuncs() { atom ~/self-shell-funcs/.launchFuncs; }
 
 function xmind() { /usr/local/xmind/XMind ;}
 

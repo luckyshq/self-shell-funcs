@@ -1,7 +1,7 @@
-function otherfuncs() { emacs ~/ShellFuncs/.otherFuncs; }
+function otherfuncs() { atom ~/self-shell-funcs/.otherFuncs; }
 
 function cr() { clear; }
-function mk() { 
+function mk() {
 	 mkdir $1;
 	 cd $1;
 }

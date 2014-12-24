@@ -1,5 +1,5 @@
 function editfuncs() {
-	 emacs ~/ShellFuncs/.editFuncs;
+	 atom ~/self-shell-funcs/.editFuncs;
 }
 
 function gtdcvte() {

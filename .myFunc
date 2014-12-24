@@ -1,11 +1,11 @@
-source ~/ShellFuncs/.otherFuncs
-source ~/ShellFuncs/.cdFuncs
-source ~/ShellFuncs/.projectFuncs
-source ~/ShellFuncs/.launchFuncs
-source ~/ShellFuncs/.androidFuncs
-source ~/ShellFuncs/.gitFuncs
-source ~/ShellFuncs/.editFuncs
-source ~/ShellFuncs/.dockerFuncs
-source ~/ShellFuncs/.javaFuncs
+source ~/self-shell-funcs/.otherFuncs
+source ~/self-shell-funcs/.cdFuncs
+source ~/self-shell-funcs/.projectFuncs
+source ~/self-shell-funcs/.launchFuncs
+source ~/self-shell-funcs/.androidFuncs
+source ~/self-shell-funcs/.gitFuncs
+source ~/self-shell-funcs/.editFuncs
+source ~/self-shell-funcs/.dockerFuncs
+source ~/self-shell-funcs/.javaFuncs
 
-function myfunc() { emacs ~/ShellFuncs/.myFunc ;}
+function myfunc() { emacs ~/self-shell-funcs/.myFunc ;}
